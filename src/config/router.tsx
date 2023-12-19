@@ -6,6 +6,7 @@ import Err404 from '../screens/publicRoutes/Err404'
 export default function AppRouter(){
     return(
         <>
+        
         <BrowserRouter>
         <Routes>
             <Route path='Admin/*' element={<Admin />}/>
